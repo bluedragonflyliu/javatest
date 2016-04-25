@@ -16,7 +16,8 @@ public static void main (String [] args) {
     public void setSize(int s) {
         size = s;
     }
-public int getSize() {
+    public int getSize() {
      return size;
     }
+    
 }
