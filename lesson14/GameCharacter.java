@@ -4,6 +4,9 @@ public class GameCharacter implements Serializable {
 	String type;
 	String [] weapons;
 
+	public static void main(String []args){
+
+	}
 	public GameCharacter(int p,String t,String[]w) {
 		power = p;
 		type = t;
