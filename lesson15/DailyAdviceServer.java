@@ -2,7 +2,13 @@ import java.io.*;
 import java.net.*;
 
 public class DailyAdviceServer {
-	String[] adviceList = {"Take smaller bites","Go for the tight jeans.No they do NOT make you look fat.","One word:inappropriate", "just for today, be honest. Tell your boss what you *really* think", "You might want to rethink that haircut."};
+	String[] adviceList = {
+							"Take smaller bites",
+							"Go for the tight jeans.No they do NOT make you look fat.",
+							"One word:inappropriate", 
+							"just for today, be honest. Tell your boss what you *really* think", 
+							"You might want to rethink that haircut."
+						};
 
 	public void go(){
 		try{
