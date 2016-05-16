@@ -5,15 +5,20 @@ import java.awt.event.*;
 import java.io.*;
 import javax.swing.*;
 
-public class ImageViewer {
+public class ImageViewer
+{
 
-	public ImageViewer() {
+	public ImageViewer() 
+	{
 		// TODO Auto-generated constructor stub
 	}
 	
-	public static void main(String [] args){
-		EventQueue.invokeLater(new Runnable(){
-			public void run() {
+	public static void main(String [] args)
+	{
+		EventQueue.invokeLater(new Runnable()
+		{
+			public void run() 
+			{
 				JFrame frame = new ImageViewerFrame();
 				frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 				frame.setVisible(true);
@@ -23,8 +28,10 @@ public class ImageViewer {
 	}
 }
 
-class ImageViewerFrame extends JFrame {
-	public ImageViewerFrame() {
+class ImageViewerFrame extends JFrame 
+{
+	public ImageViewerFrame() 
+	{
 		setTitle("ImageFrameer");
 		setSize(DEFAULT_WIDTH,DEFAULT_HEIGHT);
 		label = new JLabel();
@@ -40,11 +47,14 @@ class ImageViewerFrame extends JFrame {
 		menuBar.add(menu);
 		JMenuItem openItem = new JMenuItem("Open");
 		menu.add(openItem);
-		openItem.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent event) {
+		openItem.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent event)
+			{
 				int result = chooser.showOpenDialog(null);
 				
-				if(result == JFileChooser.APPROVE_OPTION){
+				if(result == JFileChooser.APPROVE_OPTION)
+				{
 					String name = chooser.getSelectedFile().getPath();
 					label.setIcon(new ImageIcon(name));
 				}
@@ -53,6 +63,17 @@ class ImageViewerFrame extends JFrame {
 		
 		JMenuItem exitItem = new JMenuItem("Exit");
 		menu.add(exitItem);
-		exitItem.addActionListener(new ActionListeter);
+		exitItem.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent event)
+			{
+				System.exit(0);
+			}
+		});
 	}
+	
+	private JLabel label;
+	private JFileChooser chooser;
+	private static final int DEFAULT_WIDTH = 300;
+	private static final int DEFAULT_HEIGHT = 400;
 }
