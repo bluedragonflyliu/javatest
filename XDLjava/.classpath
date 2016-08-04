@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="xdl218"/>
+	<classpathentry kind="src" path="xdl143"/>
+	<classpathentry kind="src" path="xdl145"/>
+	<classpathentry kind="src" path="xdl147"/>
+	<classpathentry kind="src" path="xdl150"/>
+	<classpathentry kind="src" path="xdl151"/>
+	<classpathentry kind="src" path="xdl153"/>
+	<classpathentry kind="src" path="xdl154"/>
+	<classpathentry kind="src" path="xdl155"/>
+	<classpathentry kind="src" path="xdl158"/>
+	<classpathentry kind="src" path="xdl162"/>
+	<classpathentry kind="src" path="xdl175"/>
+	<classpathentry kind="src" path="xdl187"/>
+	<classpathentry kind="src" path="xdl202"/>
+	<classpathentry kind="src" path="xdl205"/>
+	<classpathentry kind="src" path="xdl206"/>
+	<classpathentry kind="src" path="xdl207"/>
+	<classpathentry excluding="src/" kind="src" path="xdl210"/>
+	<classpathentry kind="src" path="xdl210/src"/>
+	<classpathentry kind="src" path="xdl212/src"/>
+	<classpathentry kind="src" path="xdl74"/>
+	<classpathentry kind="src" path="xdl95"/>
+	<classpathentry kind="src" path="xdl223"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

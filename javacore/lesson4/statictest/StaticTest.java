@@ -1,3 +1,5 @@
+package statictest;
+
 public class StaticTest {
 	public static void main(String[] args){
 		Employee[] staff = new Employee[3];

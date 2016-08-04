@@ -1,4 +1,6 @@
 import java.util.*;
+
+import statictest.Employee;
 public class ConstructorTest {
 	public static void main(String[] args){
 		Employee[] staff = new Employee[3];
